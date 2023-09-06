@@ -1,0 +1,48 @@
+/*      CONFIG BASE       */
+@import url(base/estilo_base.css);
+
+/*      MEDIA QUERY       */
+@media (max-width: 700px) {
+    body {
+        width: fit-content;
+    }
+}
+
+/*      DISPLAY FLEX        */
+.container {
+    display: flex;
+}
+
+/*      FLEX-DIRECTION        */
+.flex-d-row {
+    flex-direction: row;
+}
+
+.flex-d-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-d-col {
+    flex-direction: column;
+}
+
+.flex-d-col-reverse {
+    flex-direction: column-reverse;
+}
+
+/*      FLEX-WRAP       */
+
+.no-wrap {
+    width: 250px;
+    flex-wrap: nowrap;
+}
+
+.wrap {
+    width: 250px;
+    flex-wrap: wrap;
+}
+
+.wrap-reverse {
+    width: 250px;
+    flex-wrap: wrap-reverse;
+}

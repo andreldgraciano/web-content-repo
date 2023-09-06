@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Flexbox</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <h1>FLEXBOX</h1>
+
+        <h2>
+            <span class="propriedade">display</span>:
+            <span class="valor">flex</span>;
+        </h2>
+        <p>Acescentando o dislpay flex em um container.</p>
+        <div class="container flex-d-row">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+
+        <h2>
+            <span class="propriedade">flex-direction</span>:
+            <span class="valor">row</span>; (padrão)
+        </h2>
+        <p>
+            Elementos dispostos lado a lado no
+            <strong>sentido do main axis</strong>.
+        </p>
+        <div class="container flex-d-row">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+
+        <h2>
+            <span class="propriedade">flex-direction</span>:
+            <span class="valor">row-reverse</span>;
+        </h2>
+        <p><strong>Alterando o ponto de início</strong> do main axis.</p>
+        <div class="container flex-d-row-reverse">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+
+        <h2>
+            <span class="propriedade">flex-direction</span>:
+            <span class="valor">column</span>;
+        </h2>
+        <p>
+            <strong>Inverte-se o main axis</strong> com o cross axis. Agora o
+            fluxo principal é o vertical.
+        </p>
+        <div class="container flex-d-col">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+
+        <h2>
+            <span class="propriedade">flex-direction</span>:
+            <span class="valor">column-reverse</span>;
+        </h2>
+        <p><strong>Alteramos o ponto de início</strong> do cross axis.</p>
+        <div class="container flex-d-col-reverse">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+
+        <h2>
+            <span class="propriedade">flex-wrap</span>:
+            <span class="valor">nowrap</span>; (padrão)
+        </h2>
+        <p>
+            Com o nowrap, os elementos
+            <strong>ultrapassam o tamaho do container</strong>. Acontece o
+            overflow.
+        </p>
+        <div class="container no-wrap bg-white border-black">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+        </div>
+
+        <h2>
+            <span class="propriedade">flex-wrap</span>:
+            <span class="valor">wrap</span>;
+        </h2>
+        <p>
+            Os flex item passam a ser <strong>multilinha</strong> e
+            <strong>respeitar a largura do conainer</strong>, impedido que o
+            overflow aconteça.
+        </p>
+        <div class="container wrap bg-white border-black no-wrap">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+        </div>
+
+        <h2>
+            <span class="propriedade">flex-wrap</span>:
+            <span class="valor">wrap-reverse</span>;
+        </h2>
+        <p>
+            Os flex itens <strong>começam de baixo</strong> e quebram a linha
+            <strong>para cima</strong>.
+        </p>
+        <div class="container wrap-reverse bg-white border-black no-wrap">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+        </div>
+
+        <h2><span class="propriedade"></span>: <span class="valor"></span>;</h2>
+        <p></p>
+        <div class="container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+
+        <h2><span class="propriedade"></span>: <span class="valor"></span>;</h2>
+        <p></p>
+        <div class="container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+
+        <h2><span class="propriedade"></span>: <span class="valor"></span>;</h2>
+        <p></p>
+        <div class="container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+
+        <h2><span class="propriedade"></span>: <span class="valor"></span>;</h2>
+        <p></p>
+        <div class="container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+
+        <h2><span class="propriedade"></span>: <span class="valor"></span>;</h2>
+        <p></p>
+        <div class="container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+
+        <h2><span class="propriedade"></span>: <span class="valor"></span>;</h2>
+        <p></p>
+        <div class="container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+
+        <h2><span class="propriedade"></span>: <span class="valor"></span>;</h2>
+        <p></p>
+        <div class="container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+
+        <h2><span class="propriedade"></span>: <span class="valor"></span>;</h2>
+        <p></p>
+        <div class="container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+
+        <h2><span class="propriedade"></span>: <span class="valor"></span>;</h2>
+        <p></p>
+        <div class="container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+
+        <h2><span class="propriedade"></span>: <span class="valor"></span>;</h2>
+        <p></p>
+        <div class="container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+    </body>
+</html>
